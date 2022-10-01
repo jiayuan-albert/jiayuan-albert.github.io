@@ -1,21 +1,19 @@
 .header {
   margin-top: 10PX;
   display: flex;
-  height: 150px;
+  height: 100px;
   color: white;
   /* background-color: lightblue; */
+  padding: 5px;
 }
 
 .header-left-section {
   flex: 1;
-  margin-left: 200px;
-  /* align-items: center;
-  justify-content: space-between; */
-  /* margin-top: 30px; */
+  /* margin-left: 200px; */
   /* background-color: lightcoral; */
 }
 
-/* .preferred-name, */
+
 .king-name {
   font-size: 40px;
   font-weight: bold;
@@ -25,10 +23,6 @@
   text-decoration: none;
   color: white;
 }
-
-/* .preferred-name {
-  margin-left: 120px;
-} */
 
 .king-job {
   font-size: 25px;
@@ -42,6 +36,7 @@
   justify-content: space-between;
   align-items: center;
   /* background-color: lightgreen; */
+  margin-right: 10px;
 
 }
 
@@ -55,4 +50,8 @@
 .right-section div a {
   text-decoration: none;
   color: rgb(150, 150, 150);
+}
+
+.right-section div a:hover {
+  color: white;
 }
