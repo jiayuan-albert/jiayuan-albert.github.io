@@ -1,11 +1,18 @@
 .header {
-  height: 200px;
+  margin-top: 10PX;
+  display: flex;
+  height: 150px;
   color: white;
+  /* background-color: lightblue; */
 }
 
 .header-left-section {
+  flex: 1;
   margin-left: 200px;
-  margin-top: 30px;
+  /* align-items: center;
+  justify-content: space-between; */
+  /* margin-top: 30px; */
+  /* background-color: lightcoral; */
 }
 
 /* .preferred-name, */
@@ -27,4 +34,25 @@
   font-size: 25px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: lightgreen; */
+
+}
+
+.right-section div {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right-section div a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
 }
