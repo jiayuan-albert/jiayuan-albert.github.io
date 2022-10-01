@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  position: absolute;
+  margin-top: 300px;
+  background-color: #2B6CA3;
+  left: 0;
+  right: 0;
+  height: 100px;
+}

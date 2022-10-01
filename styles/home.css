@@ -1,5 +1,30 @@
-.home-content {
-  background-color: blueviolet;
+.home {
+  display: flex;
+  /* background-color: blueviolet; */
   margin-left: 200px;
-  height: 1000px;
+  /* height: 1000px; */
+}
+
+.personal-introduction {
+  color: white;
+  font-size: 20px;
+  line-height: 1.8;
+  padding: 5px;
+}
+
+.home img {
+  width: 500px;
+}
+
+.resume {
+  font-weight: bold;
+}
+
+.personal-introduction a {
+  text-decoration: none;
+  color: black;
+}
+
+.personal-introduction a:hover {
+  font-style: italic;
 }
