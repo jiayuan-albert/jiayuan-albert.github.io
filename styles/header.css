@@ -1,0 +1,30 @@
+.header {
+  height: 200px;
+  color: white;
+}
+
+.header-left-section {
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+/* .preferred-name, */
+.king-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* .preferred-name {
+  margin-left: 120px;
+} */
+
+.king-job {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
