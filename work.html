@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/work.css">
 </head>
 
 <body>
@@ -49,10 +50,10 @@
       </div>
     </div>
     <div class="right-section">
-      <audio controls >
+      <audio controls>
         <source src="horse.ogg" type="audio/ogg">
         <source src="videos/stay.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
+        Your browser does not support the audio element.
       </audio>
     </div>
   </div>
@@ -80,9 +81,9 @@
     </div>
     <div class="icons-content">
       <img src="icons/email-icon.webp" alt="">
-      <form  action="mailto:jh79@illinois.edu" method="post" enctype="text/plain">
+      <form action="mailto:jh79@illinois.edu" method="post" enctype="text/plain">
         <input class="email.btn" type="submit" value="Email">
-        </form>
+      </form>
     </div>
     <div class="icons-content">
       <img src="icons/zhihu-icon.png" alt="">
@@ -93,7 +94,43 @@
     </div>
   </div>
   <div class="work">
-    <img src="profiles/uniview.jpg" alt="">
+    <div class="introduction">
+      <p>
+        I had a 3-month internship in Uniview Technology in China. This company provides <b>IP video surveillance</b> for
+        cities
+        and it is a leader of AIoT.
+
+        In the first two weeks, my mentor helped me familiarize with the environment and set up the cofiguration like
+        the
+        DNS, Nginx, Kafka and Redis. And for the next two weeks, we test the functionality of their components.
+
+        I learned how to manage version control using `SVN`instead of `Git` to make the system safety. And when I found
+        a
+        problem, I learned that I should locate that and found who wrote that code, ask them and then report that issue
+        to
+        my manager.
+
+        I also learned many Frontend framework of Java like SpringCloud. And many design patterns like factory method
+        (we
+        create objects without exposing the creation logic to the client and the client uses the same common interface
+        to
+        create a new type of object).
+
+        I wrote the code of APIs of interacting IP Camera and Controll System. For example, how to change to direction
+        and
+        lightness of the video camera.
+
+        I also help maintain the company's database and write some quries to search data.
+      </p>
+      <p>
+        I had a 2-month full stack project building an app for people to chat with each other and selling products. We
+        use Vue.js to implement our frontend (Login, Account, Message) and interface and use Node.js to implement our
+        backend. We use Google Cloud for MySQL to build our database and use some advanced queries like procedure and
+        transcation. We also follow the rules of ACID (atomicity, consistency, isolation and durability) and using index
+        to help guarante the robustness and efficiency of the database.
+      </p>
+    </div>
+    <img class="intern" src="profiles/intern-1.jpg" alt="">
   </div>
   <div class="footer">
     <div class="footer-items">

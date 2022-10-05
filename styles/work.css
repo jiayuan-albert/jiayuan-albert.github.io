@@ -1,0 +1,16 @@
+.work {
+  display: flex;
+  margin-left: 200px;
+}
+
+.work .introduction {
+  color: white;
+  font-size: 20px;
+  line-height: 1.8;
+  padding: 5px;
+  flex: 1;
+}
+
+.work img {
+  width: 300px;
+}
