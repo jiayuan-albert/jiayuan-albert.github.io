@@ -1,0 +1,24 @@
+.blog {
+  display: flex;
+  margin-left: 200px;
+}
+
+.blog img {
+  width: 300px;
+  position: absolute;
+  right: 10px;
+}
+
+li {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-style: italic;
+}

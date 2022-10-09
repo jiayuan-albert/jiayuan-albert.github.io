@@ -1,0 +1,67 @@
+.header {
+  margin-top: 10px;
+  display: flex;
+  height: 100px;
+  color: white;
+  /* background-color: lightblue; */
+  padding: 5px;
+  border-bottom-style: solid;
+  border-color: rgb(233, 233, 233);
+  border-width: 1px;
+  margin-bottom: 8px;
+  
+}
+
+.header-left-section {
+  flex: 1;
+  /* margin-left: 200px; */
+  /* background-color: lightcoral; */
+}
+
+
+.king-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+.king-job {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: lightgreen; */
+  margin-right: 10px;
+
+}
+
+.middle-section div {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.middle-section div a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.middle-section div a:hover {
+  color: white;
+}
+
+.right-section {
+  /* background-color: lightblue; */
+  padding: 20px;
+}

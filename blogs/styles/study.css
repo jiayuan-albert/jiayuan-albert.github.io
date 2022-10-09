@@ -1,0 +1,71 @@
+.study {
+  display: flex;
+  margin-left: 200px;
+}
+
+
+ 
+.study-info {
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 5px;
+  flex: 1;
+}
+
+.study-imgs {
+  padding: 20px;
+}
+
+.study img {
+  width: 600px;
+  display: block;
+  margin-bottom:110px;
+}
+
+.school-period1,
+.school-period2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.school-period2 {
+  margin-top: 200px;
+}
+
+.xdu-study {
+  margin-top: 150px;
+}
+
+.cat-info {
+  color: white;
+  font-size: 30px;
+}
+
+.cat-img {
+  margin-bottom: 0;
+  height: 300px;
+  object-fit: cover;
+}
+
+.friend-info {
+  margin-top: 0;
+}
+
+.xdu-reward-info {
+  margin-top: 0;
+  text-align: center;
+  font-size: 30px;
+}
+.xdu-reward-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1100px) {
+  .study img {
+    display: none;
+  }
+}
