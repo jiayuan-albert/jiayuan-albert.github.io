@@ -15,12 +15,12 @@
   width: 500px;
 }
 
+
 .resume {
   font-weight: bold;
 }
 
 .personal-introduction a {
-  text-decoration: none;
   color: black;
 }
 
@@ -32,4 +32,8 @@
   .home img {
     display: none;
   }
+}
+
+.middle-section div .home-title {
+  color: white;
 }

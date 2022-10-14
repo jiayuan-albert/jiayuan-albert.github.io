@@ -57,6 +57,10 @@
   color: rgb(150, 150, 150);
 }
 
+.middle-section div .title {
+  color: white;
+}
+
 .middle-section div a:hover {
   color: white;
 }

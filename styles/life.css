@@ -1,0 +1,20 @@
+.life {
+  display: flex;
+  margin-left: 200px;
+}
+
+.life-info {
+  color: white;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 5px;
+  flex: 1;
+}
+
+.life img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin-top: 2px;
+}
